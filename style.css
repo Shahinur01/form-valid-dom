@@ -1,0 +1,15 @@
+label,input{
+    padding-left: 10px;
+}
+.loading{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display:none;
+    position: absolute;
+    object-fit: cover;
+    top: 250px; ;
+    left:150px;
+    background-color: #fff;
+
+}

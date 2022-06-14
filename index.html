@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container my-5">
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-header text-center">
+                    <h1>Add new students</h1>
+                    <img class="loading" src="https://acegif.com/wp-content/uploads/loading-1.gif" alt="">
+                    <p class="msg"></p>
+                </div>
+                <form action="#" id="student-form">
+                    <div class="my-3">
+                        <label> Name</label>
+                        <input class="form-control " type="text" placeholder="Name" name="name" id="">
+                    </div>
+                    <div class="my-3">
+                        <label> Email</label>
+                        <input class="form-control " type="text" placeholder="Email" name="email" id="">
+                        <span id="emailCheck"></span>
+                    </div>
+                    <div class="my-3">
+                        <label> Cell</label>
+                        <input class="form-control " type="number" placeholder="Cell" name="cell" id="">
+                        <span id="cellNumber"></span>
+                    </div>
+                    <div class="my-3">
+                        <label> Username</label>
+                        <input class="form-control " type="text" placeholder="Username" name="username" id="">
+                    </div>
+                    <div class="my-3">
+                        <label> Gender</label>
+                        <br>
+                        <label >
+                            <input type="radio"  value="Male" name="gender">Male
+                        </label> 
+                        <br>
+                        <label >
+                            <input type="radio"  value="Female" name="gender">Female
+                        </label>
+                    </div>
+                    <div class="my-3">
+                        <label>Subject</label> <br>
+                        <label>
+                           <input type="checkbox"  value="cse" name="course" id="">CSE
+                       </label>
+                    <label>
+                        <input  type="checkbox" value="course" id="">EEE
+                    </label>
+                    <label>
+                        <input  type="checkbox" value="course" id="">IT
+                    </label>
+                    </div>
+
+                    <div class="my-3">
+                        <input class=" btn btn-success w-100 " type="submit" id=""placeholder="Name" name="" id="">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
