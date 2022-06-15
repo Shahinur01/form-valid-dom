@@ -8,8 +8,8 @@ label,input{
     display:none;
     position: absolute;
     object-fit: cover;
-    top: 250px; ;
-    left:150px;
+    top: 33%;
+    left: 37%;
     background-color: #fff;
 
 }
